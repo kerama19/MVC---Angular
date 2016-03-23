@@ -1,0 +1,91 @@
+﻿@model List<Lab.Data.Model.User>
+@{
+    ViewBag.Title = "Users List";
+}
+<div class="modal fade bs-example-modal-sm" id="DeleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete the selected user?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <a href="#" class="btn btn-primary" id="deletelink">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        @if(Model != null && Model.Count > 0)
+        {
+            <table class="table">        
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Active</th>
+                    @if (@CurrentUser.IsInRole("Users", "Update"))
+                    { 
+                        <th style="min-width: 60px">Edit</th>
+                    }
+                    @if (@CurrentUser.IsInRole("Users", "Delete"))
+                    { 
+                        <th style="min-width: 75px">Delete</th>
+                    }
+                </tr>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.UserName</td>
+                        <td>@user.Email</td>
+                        <td>@user.Active</td>
+                        @if (@CurrentUser.IsInRole("Users", "Update"))
+                        {
+                            <td>
+                                <a>
+                                    <i class="glyphicon glyphicon-pencil"></i>
+                                    <span class="sr-only">@Html.ActionLink("Edit", "EditUser", "User", new { username = user.UserName }, null)</span>
+                                </a>
+                            </td>
+                        }
+                        @if (@CurrentUser.IsInRole("Users", "Delete") && CurrentUser.CurrentUserName != user.UserName)
+                        {
+                            <td>                                
+                                <a href="#" data-toggle="modal" data-target="#DeleteModal" data-whatever=@user.UserName>
+                                    <i class="glyphicon glyphicon-remove-circle"></i>
+                                    <span class="sr-only"></span>Delete
+                                </a>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <i class="glyphicon glyphicon-ban-circle" style="color: red"></i>
+                            </td>
+                        }
+                    </tr>
+                }
+            </table>
+        }
+        @if (CurrentUser.IsInRole("Users", "Create"))
+        {
+            <a>
+                <i class="glyphicon glyphicon-plus"></i>
+                <span class="sr-only">@Html.ActionLink("Add New User", "AddUser", "User")</span>
+            </a>
+        }
+    </div>
+</div>
+<script>
+    $('#DeleteModal').on('show.bs.modal', function (event) {        
+        var link = $(event.relatedTarget)
+        var user = link.data('whatever')
+
+        var modal = $(this)
+        modal.find('#deletelink').attr('href', 'DeleteUser?username=' + user)
+    });
+</script>

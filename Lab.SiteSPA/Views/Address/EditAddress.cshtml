@@ -1,0 +1,55 @@
+﻿<form name="editAddressForm" ng-controller="EditAddressController as addressCtrl" ng-submit="editAddressForm.$valid && addressCtrl.saveAddress(addressCtrl.address)" class="form-horizontal">
+    <input class="form-control" id="Id" name="Id" type="hidden" ng-model="addressCtrl.address.Id" />
+    <input class="form-control" id="Id" name="Id" type="hidden" ng-model="addressCtrl.IsNew" />
+    <div class="form-group">
+        <label class="control-label col-sm-2">CompanyName</label>
+        <div class="col-sm-4">
+            <input class="form-control" required id="CompanyName" name="CompanyName" placeholder="Company Name" type="text" ng-model="addressCtrl.address.CompanyName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">AddressLine1</label>
+        <div class="col-sm-4">
+            <input class="form-control" required id="AddressLine1" name="AddressLine1" placeholder="Address Line 1" type="text" ng-model="addressCtrl.address.AddressLine1" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">AddressLine2</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="AddressLine2" name="AddressLine2" placeholder="Address Line 2" type="text" ng-model="addressCtrl.address.AddressLine2" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">State</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="State" name="State" placeholder="State" type="text" ng-model="addressCtrl.address.State" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">City</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="City" name="City" placeholder="City" type="text" ng-model="addressCtrl.address.City" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Country</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="Country" name="Country" placeholder="Country" type="text" ng-model="addressCtrl.address.Country" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Zip</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="Zip" name="Zip" placeholder="Zip" type="text" ng-model="addressCtrl.address.Zip" />
+        </div>
+    </div>
+    <div class="form-actions" ng-show="(addressCtrl.UserFunctions[0].CanCreate && addressCtrl.address.Id === 0) || (addressCtrl.UserFunctions[0].CanUpdate && addressCtrl.address.Id > 0)">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success">
+                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                <span>Save</span>
+            </button>
+        </div>
+    </div>
+    <a href="#!/AddressesList"><i class="glyphicon glyphicon-pencil"></i> Back to List</a>
+</form>

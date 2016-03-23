@@ -1,0 +1,12 @@
+﻿<div id="header" ng-show="headerCtrl.header.showHeader">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>{{headerCtrl.header.headerTitle}}</h1>
+        </hgroup>
+    </div>
+    <div class="alert alert-{{headerCtrl.header.alertType}}" role="alert" ng-show="headerCtrl.header.hasAlert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="headerCtrl.hideAlert()"><span aria-hidden="true">&times;</span></button>
+        <span class="glyphicon glyphicon-{{headerCtrl.header.signType}}-sign" aria-hidden="true"></span>
+        {{headerCtrl.header.message}}
+    </div>
+</div>

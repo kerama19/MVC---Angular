@@ -1,0 +1,25 @@
+﻿@model Lab.Data.Model.Address
+@{
+    if (Model.Id != 0)
+    {
+        ViewBag.Title = "Edit Address";
+    }
+    else
+    {
+        ViewBag.Title = "Add Address";
+    }
+}
+@if (Model.Id != 0)
+{
+    using (Html.BeginForm("UpdateAddress", "Address", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.Partial("AddressFormPartial", Model)
+    }
+}
+else
+{
+    using (Html.BeginForm("CreateAddress", "Address", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.Partial("AddressFormPartial", Model)
+    }
+}

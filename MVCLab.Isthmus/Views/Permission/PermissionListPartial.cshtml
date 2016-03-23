@@ -1,0 +1,44 @@
+﻿@model Lab.Data.VirtualModel.TempPermissions
+
+@if (Model != null)
+{
+    if (Model.CanRead)
+    {
+        <td style="color:green"><i class="glyphicon glyphicon-ok"></i></td>
+    }
+    else
+    {
+        <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    }
+    if (Model.CanCreate)
+    {
+        <td style="color:green"><i class="glyphicon glyphicon-ok"></i></td>
+    }
+    else
+    {
+        <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    }
+    if (Model.CanUpdate)
+    {
+        <td style="color:green"><i class="glyphicon glyphicon-ok"></i></td>
+    }
+    else
+    {
+        <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    }
+    if (Model.CanDelete)
+    {
+        <td style="color:green"><i class="glyphicon glyphicon-ok"></i></td>
+    }
+    else
+    {
+        <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    }
+}
+else
+{
+    <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+    <td style="color:red"><i class="glyphicon glyphicon-remove"></i></td>
+}

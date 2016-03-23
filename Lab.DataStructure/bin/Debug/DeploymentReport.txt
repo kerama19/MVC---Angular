@@ -1,0 +1,21 @@
+﻿** Warnings
+     The object reference [dbo].[User].[id] differs only by case from the object definition [dbo].[User].[Id].
+
+** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [Lab] (Schema)
+       [dbo].[Permission] (Table)
+       [dbo].[User] (Table)
+       [dbo].[FK_Permission_ToUser] (Foreign Key)
+
+** Supporting actions

@@ -1,0 +1,43 @@
+﻿<form name="editCarForm" ng-controller="EditCarController as carCtrl" ng-submit="editCarForm.$valid && carCtrl.saveCar(carCtrl.car)" class="form-horizontal">
+    <input class="form-control" id="Id" name="Id" type="hidden" ng-model="carCtrl.car.Id" />
+    <input class="form-control" id="Id" name="Id" type="hidden" ng-model="carCtrl.IsNew" />
+    <div class="form-group">
+        <label class="control-label col-sm-2">Manufacturer</label>
+        <div class="col-sm-4">
+            <input class="form-control" required id="Manufacturer" name="Manufacturer" placeholder="Manufacturer" type="text" ng-model="carCtrl.car.Manufacturer" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Model</label>
+        <div class="col-sm-4">
+            <input class="form-control" required id="Model" name="Model" placeholder="Model" type="text" ng-model="carCtrl.car.Model" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Color</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="Color" name="Color" placeholder="Color" type="text" ng-model="carCtrl.car.Color" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Year</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="Year" name="Year" placeholder="Year" type="text" ng-model="carCtrl.car.Year" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Category</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="Category" name="Category" placeholder="Category" type="text" ng-model="carCtrl.car.Category" />
+        </div>
+    </div>
+    <div class="form-actions" ng-show="(carCtrl.UserFunctions[0].CanCreate && carCtrl.car.Id === 0) || (carCtrl.UserFunctions[0].CanUpdate && carCtrl.car.Id > 0)">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success">
+                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                <span>Save</span>
+            </button>
+        </div>
+    </div>
+    <a href="#!/CarsList"><i class="glyphicon glyphicon-pencil"></i> Back to List</a>
+</form>

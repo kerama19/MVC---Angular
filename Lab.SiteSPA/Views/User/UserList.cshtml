@@ -1,0 +1,29 @@
+﻿<div class="row" ng-controller="UserListController as userCtrl">
+    <div class="col-md-4">
+        <table class="table">
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Active</th>
+                <th style="min-width: 60px" ng-show="userCtrl.UserFunctions[0].CanUpdate">Edit</th>
+                <th style="min-width: 75px" ng-show="userCtrl.UserFunctions[0].CanDelete">Delete</th>
+            </tr>
+            <tr ng-repeat="user in userCtrl.users">
+                <td>{{user.UserName}}</td>
+                <td>{{user.Email}}</td>
+                <td>{{user.Active}}</td>
+                <td ng-show="userCtrl.UserFunctions[0].CanUpdate">
+                    <a href="#!/EditUser/{{user.UserName}}"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+                </td>
+                <td ng-show="userCtrl.UserFunctions[0].CanDelete">
+                    <a href="" ng-show="userCtrl.currentLoggedUser !== user.UserName" ng-click="userCtrl.openModal(user.UserName)">
+                        <i class="glyphicon glyphicon-remove-circle"></i>
+                        <span class="sr-only"></span>Delete
+                    </a>
+                    <i class="glyphicon glyphicon-ban-circle" style="color: red" ng-hide="userCtrl.currentLoggedUser !== user.UserName"></i>
+                </td>
+            </tr>
+        </table>
+        <a href="#!/AddUser" ng-show="userCtrl.UserFunctions[0].CanCreate"><i class="glyphicon glyphicon-pencil"></i> Add New User</a>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@ViewBag.Title</h1>
+        </hgroup>
+    </div>
+    @if (!string.IsNullOrEmpty(ViewBag.Message) && ViewData["MsgType"] == "Error")
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            @ViewBag.Message
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(ViewBag.Message) && ViewData["MsgType"] == "Info")
+    {
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            @ViewBag.Message
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(ViewBag.Message) && ViewData["MsgType"] == "Success")
+    {
+        <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+            @ViewBag.Message
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(ViewBag.Message) && ViewData["MsgType"] == "Warning")
+    {
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+            @ViewBag.Message
+        </div>
+    }
+    @{
+        TempData["MsgType"] = string.Empty;
+        TempData["Message"] = string.Empty;
+    }
+</section>

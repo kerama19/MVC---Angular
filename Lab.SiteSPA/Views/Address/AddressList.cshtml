@@ -1,0 +1,36 @@
+﻿<div class="row" ng-controller="AddressListController as addressCtrl">    
+    <div class="col-md-4">
+        <table class="table">
+            <tr style="white-space:nowrap" ng-hide="addressCtrl.isEmpty">
+                <th>Company Name</th>
+                <th>Address Line 1</th>
+                <th>Address Line 2</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Zip</th>
+                <th style="min-width: 60px" ng-show="carCtrl.UserFunctions[0].CanUpdate">Edit</th>
+                <th style="min-width: 75px" ng-show="carCtrl.UserFunctions[0].CanDelete">Delete</th>
+            </tr>
+            <tr style="white-space:nowrap" ng-repeat="address in addressCtrl.addresses">
+                <td>{{address.CompanyName}}</td>
+                <td>{{address.AddressLine1}}</td>
+                <td>{{address.AddressLine2}}</td>
+                <td>{{address.State}}</td>
+                <td>{{address.City}}</td>
+                <td>{{address.Country}}</td>
+                <td>{{address.Zip}}</td>
+                <td ng-show="addressCtrl.UserFunctions[0].CanUpdate">
+                    <a href="#!/EditAddress/{{address.Id}}"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+                </td>
+                <td ng-show="addressCtrl.UserFunctions[0].CanDelete">
+                    <a href="" ng-click="addressCtrl.openModal(address.Id)">
+                        <i class="glyphicon glyphicon-remove-circle"></i>
+                        <span class="sr-only"></span>Delete
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <a href="#!/AddAddress" ng-show="addressCtrl.UserFunctions[0].CanCreate"><i class="glyphicon glyphicon-pencil"></i> Add New Address</a>
+    </div>
+</div>

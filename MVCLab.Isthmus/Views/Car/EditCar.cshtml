@@ -1,0 +1,26 @@
+﻿@model Lab.Data.Model.Car
+@{
+    if (Model.Id != 0)
+    {
+        ViewBag.Title = "Edit Car";
+    }
+    else
+    {
+        ViewBag.Title = "Add Car";
+    }
+}
+
+@if (Model.Id != 0)
+{
+    using (Html.BeginForm("UpdateCar", "Car", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.Partial("CarFormPartial", Model)
+    }
+}
+else
+{
+    using (Html.BeginForm("CreateCar", "Car", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.Partial("CarFormPartial", Model)
+    }
+}

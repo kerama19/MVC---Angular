@@ -1,0 +1,93 @@
+﻿@model List<Lab.Data.Model.Address>
+@{
+    ViewBag.Title = "Address List";
+}
+<div class="modal fade bs-example-modal-sm" id="DeleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete the selected address?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <a href="#" class="btn btn-primary" id="deletelink">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">    
+    <div class="col-md-4">
+        @if(Model != null && Model.Count > 0)
+        { 
+            <table class="table">
+                <tr style="white-space:nowrap">
+                    <th>Company Name</th>
+                    <th>Address Line 1</th>
+                    <th>Address Line 2</th>
+                    <th>State</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Zip</th>
+                    @if (@CurrentUser.IsInRole("Addresses", "Update"))
+                    {
+                        <th style="min-width: 60px">Edit</th>
+                    }
+                    @if (@CurrentUser.IsInRole("Addresses", "Delete"))
+                    {
+                        <th style="min-width: 75px">Delete</th>
+                    }
+                </tr>
+                @foreach (var address in Model)
+                {
+                    <tr style="white-space:nowrap">
+                        <td>@address.CompanyName</td>
+                        <td>@address.AddressLine1</td>
+                        <td>@address.AddressLine2</td>
+                        <td>@address.State</td>
+                        <td>@address.City</td>
+                        <td>@address.Country</td>
+                        <td>@address.Zip</td>
+                        @if (CurrentUser.IsInRole("Addresses", "Update"))
+                        {
+                            <td>
+                                <a>
+                                    <i class="glyphicon glyphicon-pencil"></i>
+                                    <span class="sr-only">@Html.ActionLink("Edit", "EditAddress", "Address", new { Id = address.Id }, null)</span>
+                                </a>
+                            </td>
+                        }
+                        @if (CurrentUser.IsInRole("Addresses", "Delete"))
+                        {
+                            <td>
+                                <a href="#" data-toggle="modal" data-target="#DeleteModal" data-whatever=@address.Id>
+                                    <i class="glyphicon glyphicon-remove-circle"></i>
+                                    <span class="sr-only"></span>Delete
+                                </a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </table>
+        }
+        @if (CurrentUser.IsInRole("Addresses", "Create"))
+        { 
+            <a>
+                <i class="glyphicon glyphicon-plus"></i>
+                <span class="sr-only">@Html.ActionLink("Add New Address", "AddAddress", "Address")</span>
+            </a>
+        }
+    </div>
+</div>
+<script>
+    $('#DeleteModal').on('show.bs.modal', function (event) {
+        var link = $(event.relatedTarget)
+        var addressId = link.data('whatever')
+
+        var modal = $(this)
+        modal.find('#deletelink').attr('href', 'DeleteAddress?id=' + addressId)
+    });
+</script>

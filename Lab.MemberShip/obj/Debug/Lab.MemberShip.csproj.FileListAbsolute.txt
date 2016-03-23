@@ -1,0 +1,22 @@
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.MemberShip.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.MemberShip.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Business.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Business.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\obj\Debug\Lab.MemberShip.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\obj\Debug\Lab.MemberShip.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MemberShip\obj\Debug\Lab.MemberShip.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.MemberShip.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.MemberShip.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Business.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Business.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\obj\Debug\Lab.MemberShip.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\obj\Debug\Lab.MemberShip.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.MemberShip\obj\Debug\Lab.MemberShip.pdb

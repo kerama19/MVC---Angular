@@ -1,0 +1,67 @@
+﻿@model Lab.Data.Model.Address
+
+@Html.HiddenFor(m => m.Id, new { @class = "form-control" })
+<div class="form-group">
+    @Html.LabelFor(m => m.CompanyName, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control", placeholder = "CompanyName" })
+    </div>
+    <div class="has-error col-sm-2" style="padding-left:0px">
+        @Html.ValidationMessageFor(m => m.CompanyName, null, new { @class = "help-block" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.AddressLine1, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.AddressLine1, new { @class = "form-control", placeholder = "Address Line 1" })
+    </div>
+    <div class="has-error col-sm-2" style="padding-left:0px">
+        @Html.ValidationMessageFor(m => m.AddressLine1, null, new { @class = "help-block" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.AddressLine2, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.AddressLine2, new { @class = "form-control", placeholder = "Address Line 2" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.State, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.State, new { @class = "form-control", placeholder = "State" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.City, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.City, new { @class = "form-control", placeholder = "City" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Country, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.Country, new { @class = "form-control", placeholder = "Country" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Zip, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.Zip, new { @class = "form-control", placeholder = "Zip" })
+    </div>
+</div>
+
+@if ((Model.Id != 0 && CurrentUser.IsInRole("Addresses", "Update")) || (Model.Id == 0 && CurrentUser.IsInRole("Addresses", "Create")))
+{
+    <div class="form-actions">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success">
+                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                <span>Save</span>
+            </button>
+        </div>
+    </div>
+}
+<a>
+    <i class="glyphicon glyphicon-circle-arrow-left"></i>
+    <span class="sr-only">@Html.ActionLink("Back to List", "AddressList", "Address")</span>
+</a>

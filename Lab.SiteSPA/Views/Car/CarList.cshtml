@@ -1,0 +1,32 @@
+﻿<div class="row" ng-controller="CarListController as carCtrl">
+    <div class="col-md-4">
+        <table class="table" ng-hide="carCtrl.isEmpty">
+            <tr style="white-space:nowrap">
+                <th>Manufacturer</th>
+                <th>Model</th>
+                <th>Color</th>
+                <th>Year</th>
+                <th>Category</th>
+                <th style="min-width: 60px" ng-show="carCtrl.UserFunctions[0].CanUpdate">Edit</th>
+                <th style="min-width: 75px" ng-show="carCtrl.UserFunctions[0].CanDelete">Delete</th>
+            </tr>
+            <tr style="white-space:nowrap" ng-repeat="car in carCtrl.cars">
+                <td>{{car.Manufacturer}}</td>
+                <td>{{car.Model}}</td>
+                <td>{{car.Color}}</td>
+                <td>{{car.Year}}</td>
+                <td>{{car.Category}}</td>
+                <td ng-show="carCtrl.UserFunctions[0].CanUpdate">
+                    <a href="#!/EditCar/{{car.Id}}"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+                </td>
+                <td ng-show="carCtrl.UserFunctions[0].CanDelete">
+                    <a href="" ng-click="carCtrl.openModal(car.Id)">
+                        <i class="glyphicon glyphicon-remove-circle"></i>
+                        <span class="sr-only"></span>Delete
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <a href="#!/AddCar" ng-show="carCtrl.UserFunctions[0].CanCreate"><i class="glyphicon glyphicon-pencil"></i> Add New Car</a>
+    </div>
+</div>

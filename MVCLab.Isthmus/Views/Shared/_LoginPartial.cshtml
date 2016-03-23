@@ -1,0 +1,51 @@
+﻿@model Lab.Data.Model.User
+@if (Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav navbar-left">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        @if (@CurrentUser.IsInRole("Users", "Read"))
+        {
+            <li>@Html.ActionLink("Users", "UserList", "User")</li>
+        }
+        @if (@CurrentUser.IsInRole("Permissions", "Read"))
+        {
+            <li>@Html.ActionLink("Permissions", "ViewPermissionsList", "Permission")</li>
+        }
+        @if (@CurrentUser.IsInRole("Cars", "Read"))
+        {
+            <li>@Html.ActionLink("Cars", "CarList", "Car")</li>
+        }
+        @if (@CurrentUser.IsInRole("Addresses", "Read"))
+        {
+            <li>@Html.ActionLink("Addresses", "AddressList", "Address")</li>
+        }
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Welcome <strong>@User.Identity.Name</strong>!<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="/Account/LogOff">
+                    <i class="glyphicon glyphicon-log-out"></i>
+                    <span>Sign out</span>
+                </a></li>
+            </ul>
+        </li>
+    </ul>
+}
+else
+{
+    using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "navbar-form navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Username" })
+    </div>
+    <div class="form-group">
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+    </div>
+    <button type="submit" class="btn btn-success">
+        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+        <span>Sign in</span>
+    </button>
+    }
+}

@@ -1,0 +1,58 @@
+﻿@model Lab.Data.Model.User
+
+@Html.HiddenFor(m => m.Id, new { @class = "form-control" })
+<div class="form-group">
+    @Html.LabelFor(m => m.UserName, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Username" })
+    </div>
+    <div class="has-error col-sm-2" style="padding-left:0px">
+        @Html.ValidationMessageFor(m => m.UserName, null, new { @class = "help-block" })
+    </div>   
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Password, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+    </div>
+    <div class="has-error col-sm-2" style="padding-left:0px">
+        @Html.ValidationMessageFor(m => m.Password, null, new { @class = "help-block" })
+    </div>   
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Email, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email" })
+    </div>
+    <div class="has-error col-sm-2" style="padding-left:0px">
+        @Html.ValidationMessageFor(m => m.Email, null, new { @class = "help-block" })
+    </div>   
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Active, new { @class = "control-label col-sm-2" })
+    <div class="col-sm-4">
+        @Html.CheckBoxFor(m => m.Active, new { @class = "checkbox" })
+    </div>
+</div>
+@if ((Model.Id != 0 && CurrentUser.IsInRole("Users", "Update")) || (Model.Id == 0 && CurrentUser.IsInRole("Users", "Create")))
+{
+    <div class="form-actions">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success">
+                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                <span>Save</span>
+            </button>
+            @if (CurrentUser.IsInRole("Permissions", "Read") && Model.Id != 0)
+            {
+                <a>
+                    <i class="glyphicon glyphicon-user"></i>
+                    <span class="sr-only">@Html.ActionLink("Permissions", "ViewPermissions", "Permission", new { username = Model.UserName }, null)</span>
+                </a>
+            }
+        </div>
+    </div>
+}
+<a>
+    <i class="glyphicon glyphicon-circle-arrow-left"></i>
+    <span class="sr-only">@Html.ActionLink("Back to List", "UserList", "User")</span>
+</a>

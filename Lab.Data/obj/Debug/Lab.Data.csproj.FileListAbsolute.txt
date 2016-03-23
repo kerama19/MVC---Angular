@@ -1,0 +1,24 @@
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.dll.config
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.dll.config
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.dll.config
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Data\obj\Debug\Lab.Data.pdb

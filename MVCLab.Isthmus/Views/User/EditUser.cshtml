@@ -1,0 +1,25 @@
+﻿@model Lab.Data.Model.User
+@{
+    if (Model.Id != 0)
+    {
+        ViewBag.Title = "Edit User";
+    }
+    else
+    {
+        ViewBag.Title = "Add User";
+    }
+}
+@if (Model.Id != 0)
+{
+    using (Html.BeginForm("UpdateUser", "User", FormMethod.Post, new { @class="form-horizontal", role="form" }))
+    {
+        @Html.Partial("UserFormPartial", Model)
+    }
+}
+else
+{
+    using (Html.BeginForm("CreateUser", "User", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.Partial("UserFormPartial", Model)
+    }
+}

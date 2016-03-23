@@ -1,0 +1,32 @@
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.dll.config
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.dll.config
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.dll.config
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Business.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Data.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\Lab.Data.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\bin\Debug\EntityFramework.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.Business\obj\Debug\Lab.Business.pdb

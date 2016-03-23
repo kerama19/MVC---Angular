@@ -1,0 +1,33 @@
+﻿<div>
+    <div ng-show="userCtrl.isAuthenticated">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="" ng-controller="HomeController as ctrl" ng-click="ctrl.goHome()">Home</a></li>
+            <li ng-repeat="tab in userCtrl.tabs" ng-show="tab.CanRead"><a href="#!/{{tab.currentFunction}}List">{{tab.currentFunction}}</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown" dropdown on-toggle="toggled(open)">
+                <a href="#!" class="dropdown-toggle" dropdown-toggle>Welcome <strong>{{userCtrl.user.CurrentUserName}}</strong>!<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="" ng-click="userCtrl.logoff()">
+                            <i class="glyphicon glyphicon-log-out"></i>
+                            <span>Sign out</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <form ng-submit="userCtrl.login(userCtrl.user)" class="navbar-form navbar-right" ng-show="!userCtrl.isAuthenticated && userCtrl.validated">
+        <div class="form-group">
+            <input type="text" ng-model="userCtrl.user.UserName" class="form-control" placeholder="Username" />
+        </div>
+        <div class="form-group">
+            <input type="password" ng-model="userCtrl.user.Password" class="form-control" placeholder="Password" />
+        </div>
+        <button type="submit" class="btn btn-success">
+            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+            <span>Sign in</span>
+        </button>
+    </form>
+</div>

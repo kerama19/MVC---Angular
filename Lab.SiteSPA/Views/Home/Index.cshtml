@@ -1,0 +1,28 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand">MVC Lab - Isthmus</a>
+        </div>
+        <div class="navbar-collapse collapse">
+           <login-partial></login-partial>            
+        </div>
+    </div>
+</div>
+<div class="jumbotron">
+    <div class="container">        
+    </div>
+</div>
+<div class="container">    
+    <header-info></header-info>
+    <div ng-view></div>    
+    <hr>
+    <footer>
+        <p id="year">&copy;</p>
+    </footer>
+</div>
+<script>
+    $(document).ready(function () {
+        var date = new Date;
+        $('#year').append(' Isthmus ' + date.getFullYear());        
+    })
+</script>

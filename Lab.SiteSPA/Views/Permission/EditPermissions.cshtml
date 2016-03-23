@@ -1,0 +1,46 @@
+﻿<div ng-controller="EditPermissionsController as permissionCtrl">
+    <div class="alert alert-info" role="alert">
+        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+        UserName: <strong>{{permissionCtrl.permissions.UserName}}</strong>, Function: <strong>{{permissionCtrl.permissions.currentFunction}}</strong>
+    </div>
+    <form name="editPermissionForm" class="form-horizontal" role="form" ng-submit="editPermissionForm.$valid && permissionCtrl.savePermissions(permissionCtrl.permissions)">
+        <input class="form-control" id="Id" name="Id" type="hidden" ng-model="permissionCtrl.permissions.UserId" />
+        <input class="form-control" id="Id" name="Id" type="hidden" ng-model="permissionCtrl.permissions.UseUserNamerId" />
+        <input class="form-control" id="Id" name="Id" type="hidden" ng-model="permissionCtrl.permissions.currentFunction" />
+   
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="CanRead">Can Read?</label>
+            <div class="col-sm-4">
+                <input class="checkbox" id="CanRead" name="CanRead" type="checkbox" value="true" ng-model="permissionCtrl.permissions.CanRead" />               
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="CanCreate">Can Create?</label>
+            <div class="col-sm-4">
+                <input class="checkbox" id="CanCreate" name="CanCreate" type="checkbox" value="true" ng-model="permissionCtrl.permissions.CanCreate" />                
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="CanUpdate">Can Update?</label>
+            <div class="col-sm-4">
+                <input class="checkbox" id="CanUpdate" name="CanUpdate" type="checkbox" value="true" ng-model="permissionCtrl.permissions.CanUpdate" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="CanDelete">Can Delete?</label>
+            <div class="col-sm-4">
+                <input class="checkbox" id="CanDelete" name="CanDelete" type="checkbox" value="true" ng-model="permissionCtrl.permissions.CanDelete" />
+            </div>
+        </div>
+        <div class="form-actions" ng-show="permissionCtrl.UserFunctions[0].CanCreate && permissionCtrl.UserFunctions[0].CanDelete">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button class="btn btn-success" type="submit">
+                    <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                    <span>Save</span>
+                </button>
+            </div>
+        </div>
+        <a href="#!/ViewPermissions/{{permissionCtrl.permissions.UserName}}" ng-show="permissionCtrl.fromUser"><i class="glyphicon glyphicon-pencil"></i> Back To Permissions</a>
+        <a href="#!/PermissionsList" ng-show="!permissionCtrl.fromUser"><i class="glyphicon glyphicon-pencil"></i> Back To Permissions List</a>
+    </form>
+</div>

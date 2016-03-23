@@ -1,0 +1,8 @@
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.MembershipProvider\bin\Debug\Lab.MembershipProvider.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.MembershipProvider\bin\Debug\Lab.MembershipProvider.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.MembershipProvider\obj\Debug\Lab.MembershipProvider.dll
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.MembershipProvider\obj\Debug\Lab.MembershipProvider.pdb
+C:\Users\Kenneth\documents\visual studio 2012\Projects\MVCLab.Isthmus\Lab.MembershipProvider\obj\Debug\Lab.MembershipProvider.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MembershipProvider\obj\Debug\Lab.MembershipProvider.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MembershipProvider\obj\Debug\Lab.MembershipProvider.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.MembershipProvider\obj\Debug\Lab.MembershipProvider.pdb

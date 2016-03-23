@@ -1,0 +1,172 @@
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\obj\Debug\Lab.SiteSPA.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.SiteSPA.dll.config
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.SiteSPA.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.SiteSPA.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Antlr3.Runtime.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.Core.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\EntityFramework.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Business.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Data.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.MemberShip.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.Edm.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.OData.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Newtonsoft.Json.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Spatial.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Helpers.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Http.OData.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Mvc.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Optimization.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Razor.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\WebGrease.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.Data.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.WebData.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Business.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Data.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.MemberShip.pdb
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\EntityFramework.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Newtonsoft.Json.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Helpers.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Mvc.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Razor.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.Data.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.WebData.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.Core.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Http.OData.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.Edm.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.OData.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Spatial.xml
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\de\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\es\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\fr\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\it\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ja\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ko\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\ru\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\obj\Debug\Lab.SiteSPA.dll
+C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.SiteSPA\obj\Debug\Lab.SiteSPA.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.SiteSPA.dll.config
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.SiteSPA.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.SiteSPA.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Antlr3.Runtime.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.Core.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\EntityFramework.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Business.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Data.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.MemberShip.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.Edm.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.OData.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Newtonsoft.Json.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Spatial.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Helpers.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Http.OData.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Mvc.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Optimization.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Razor.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\WebGrease.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.Data.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.WebData.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Business.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.Data.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Lab.MemberShip.pdb
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\EntityFramework.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Newtonsoft.Json.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Helpers.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Mvc.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Razor.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.Data.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\WebMatrix.WebData.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.Core.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Web.Http.OData.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.Edm.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\Microsoft.Data.OData.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\System.Spatial.xml
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\de\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\es\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\fr\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\it\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ja\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ko\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\ru\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\obj\Debug\Lab.SiteSPA.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\obj\Debug\Lab.SiteSPA.dll
+C:\Users\Kenneth\Desktop\MVCLab.Isthmus\Lab.SiteSPA\obj\Debug\Lab.SiteSPA.pdb

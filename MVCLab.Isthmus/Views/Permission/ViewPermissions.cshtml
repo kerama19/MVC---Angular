@@ -1,0 +1,67 @@
+﻿@model List<Lab.Data.VirtualModel.TempPermissions>
+@{
+    ViewBag.Title = "User Permissions";
+}
+<div class="row">
+    <div class="col-md-4">
+        @if(Model != null && Model.Count > 0)
+        {
+            <table class="table">
+                <tr>
+                    <th>User</th>
+                    <th>Function</th>
+                    <th colspan="4">Rights</th>
+                    @if (@CurrentUser.IsInRole("Permissions", "Update"))
+                    { 
+                        <th style="min-width: 60px">Edit</th>
+                    }
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Read</td>
+                    <td>Create</td>
+                    <td>Update</td>
+                    <td>Delete</td>
+                    <td></td>
+                </tr>
+                @foreach(var user in Model.Select(x => x.UserName).Distinct().ToList())
+                { 
+                    <tr>
+                        <td><strong>@user</strong></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    foreach (var function in Model.Select(x => x.currentFunction).Distinct().ToList())
+                    {
+                        <tr>
+                            <td></td>
+                            <td>@function</td>
+                            @Html.Partial("PermissionListPartial", Model.Where(x => x.currentFunction.Equals(function) && x.UserName.Equals(user)).FirstOrDefault())
+                            @if (CurrentUser.IsInRole("Permissions", "Update"))
+                            {
+                                <td>
+                                    <a>
+                                        <i class="glyphicon glyphicon-pencil"></i>
+                                        <span class="sr-only">@Html.ActionLink("Edit", "EditPermissions", "Permission", new { username = user, function = function }, null)</span>
+                                    </a>
+                                </td>
+                            }
+                        </tr>
+                    }
+                }
+            </table>
+        }
+        @if (CurrentUser.IsInRole("Users", "Update") && ViewData["Type"].ToString().Equals("SingleUser"))
+        {
+            <a>
+                <i class="glyphicon glyphicon-user"></i>
+               <span class="sr-only">@Html.ActionLink("Back To User", "EditUser", "User", new { username = Model.FirstOrDefault().UserName }, null)</span>
+            </a>
+        }
+    </div>
+</div>

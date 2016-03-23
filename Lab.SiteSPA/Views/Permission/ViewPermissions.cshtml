@@ -1,0 +1,39 @@
+﻿<div class="row" ng-controller="ViewPermissionsController as permissionsCtrl">
+    <div class="col-md-4">
+        <table class="table">
+            <tr>
+                <th>User</th>
+                <th>Function</th>
+                <th colspan="4">Rights</th>
+                <th style="min-width: 60px" ng-show="permissionsCtrl.UserFunctions[0].CanUpdate">Edit</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Read</td>
+                <td>Create</td>
+                <td>Update</td>
+                <td>Delete</td>
+                <td></td>
+            </tr>
+            <tr ng-repeat-start="user in permissionsCtrl.users">
+                <td rowspan="5"><strong>{{user.UserName}}</strong></td>                
+            </tr>
+            <tr ng-repeat="permission in user.TempPermissions">
+                <td>{{permission.currentFunction}}</td>
+                <td style="color:green" ng-show="permission.CanRead"><i class="glyphicon glyphicon-ok"></i></td>
+                <td style="color:red" ng-hide="permission.CanRead"><i class="glyphicon glyphicon-remove"></i></td>
+                <td style="color:green" ng-show="permission.CanCreate"><i class="glyphicon glyphicon-ok"></i></td>
+                <td style="color:red" ng-hide="permission.CanCreate"><i class="glyphicon glyphicon-remove"></i></td>
+                <td style="color:green" ng-show="permission.CanUpdate"><i class="glyphicon glyphicon-ok"></i></td>
+                <td style="color:red" ng-hide="permission.CanUpdate"><i class="glyphicon glyphicon-remove"></i></td>
+                <td style="color:green" ng-show="permission.CanDelete"><i class="glyphicon glyphicon-ok"></i></td>
+                <td style="color:red" ng-hide="permission.CanDelete"><i class="glyphicon glyphicon-remove"></i></td>
+                <td>
+                    <a href="#!/EditPermissions/{{user.UserName}}/{{permission.currentFunction}}/{{permissionsCtrl.fromUser}}" ng-show="permissionsCtrl.UserFunctions[0].CanUpdate"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+                </td>
+            </tr>  
+            <tr ng-repeat-end></tr>                              
+        </table>
+    </div>
+</div>

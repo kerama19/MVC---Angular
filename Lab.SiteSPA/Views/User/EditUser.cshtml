@@ -1,0 +1,38 @@
+﻿<form name="editUserForm" ng-controller="EditUserController as userCtrl" ng-submit="editUserForm.$valid && userCtrl.saveUser(userCtrl.user)" class="form-horizontal">
+    <input class="form-control" id="Id" name="Id" type="hidden" ng-model="userCtrl.user.Id" />
+    <input class="form-control" id="Id" name="Id" type="hidden" ng-model="userCtrl.IsNew" />
+    <div class="form-group">
+        <label class="control-label col-sm-2">UserName</label>
+        <div class="col-sm-4">
+            <input class="form-control" required id="UserName" name="UserName" placeholder="Username" type="text" ng-model="userCtrl.user.UserName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="Password">Password</label>
+        <div class="col-sm-4">
+            <input class="form-control" required id="Password" name="Password" placeholder="Password" type="password" ng-model="userCtrl.user.Password" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="Email">Email</label>
+        <div class="col-sm-4">
+            <input class="form-control" id="Email" name="Email" placeholder="Email" type="email" ng-model="userCtrl.user.Email" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="Active">Active</label>
+        <div class="col-sm-4">
+            <input class="checkbox" id="Active" name="Active" type="checkbox" value="true" ng-model="userCtrl.user.Active" />
+        </div>
+    </div>
+    <div class="form-actions">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success" ng-show="(userCtrl.user.Id === 0 && userCtrl.rightsUsers[0].CanCreate) || (userCtrl.user.Id > 0 && userCtrl.rightsUsers[0].CanUpdate)">
+                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                <span>Save</span>
+            </button>
+            <a href="#!/ViewPermissions/{{user.UserName}}" ng-show="!User.IsNew && userCtrl.rightsPermissions[0].CanRead"><i class="glyphicon glyphicon-pencil"></i> Permissions</a>
+        </div>
+    </div>
+    <a href="#!/UsersList"><i class="glyphicon glyphicon-pencil"></i> Back to List</a>
+</form>
