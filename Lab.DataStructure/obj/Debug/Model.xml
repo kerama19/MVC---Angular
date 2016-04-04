@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="Lab.DataStructure.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\KENNETH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\MVC-LAB\MVCLAB.ISTHMUS\LAB.DATASTRUCTURE\OBJ\DEBUG\LAB.DATASTRUCTURE.DLL" />
+			<Metadata Name="FileName" Value="C:\PROJECT SOURCE CODE\MVCLAB.ISTHMUS\LAB.DATASTRUCTURE\OBJ\DEBUG\LAB.DATASTRUCTURE.DLL" />
 			<Metadata Name="AssemblyName" Value="Lab.DataStructure" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\Lab.DataStructure.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\Lab.DataStructure.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -65,7 +65,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Permission].[Id]" />
+								<References Name="[dbo].[Cars].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -73,7 +73,7 @@
 			</Relationship>
 			<Relationship Name="DefiningTable">
 				<Entry>
-					<References Name="[dbo].[Permission]" />
+					<References Name="[dbo].[Cars]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
@@ -103,7 +103,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Cars].[Id]" />
+								<References Name="[dbo].[Permission].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -111,7 +111,7 @@
 			</Relationship>
 			<Relationship Name="DefiningTable">
 				<Entry>
-					<References Name="[dbo].[Cars]" />
+					<References Name="[dbo].[Permission]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
@@ -314,7 +314,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="6" />
+						<AttachedAnnotation Disambiguator="4" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -446,7 +446,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="4" />
+						<AttachedAnnotation Disambiguator="6" />
 					</Element>
 				</Entry>
 				<Entry>

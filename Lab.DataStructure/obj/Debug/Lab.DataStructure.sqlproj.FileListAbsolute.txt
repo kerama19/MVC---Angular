@@ -17,3 +17,12 @@ C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\La
 C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\refactor.xml
 C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\postdeploy.sql
 C:\Users\Kenneth\Documents\Visual Studio 2012\Projects\MVC-Lab\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\predeploy.sql
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\bin\Debug\Lab.DataStructure.dacpac
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\bin\Debug\Lab.DataStructure.dll
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\bin\Debug\Lab.DataStructure.pdb
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\Model.xml
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\refactor.xml
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\postdeploy.sql
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\predeploy.sql
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\Lab.DataStructure.dll
+C:\Project Source Code\MVCLab.Isthmus\Lab.DataStructure\obj\Debug\Lab.DataStructure.pdb

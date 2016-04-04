@@ -191,15 +191,17 @@ CREATE SCHEMA [Lab]
 
 
 GO
-PRINT N'Creating [dbo].[Permission]...';
+PRINT N'Creating [dbo].[Cars]...';
 
 
 GO
-CREATE TABLE [dbo].[Permission] (
-    [Id]       INT          IDENTITY (1, 1) NOT NULL,
-    [Function] VARCHAR (50) NOT NULL,
-    [Rights]   VARCHAR (10) NOT NULL,
-    [UserId]   INT          NOT NULL,
+CREATE TABLE [dbo].[Cars] (
+    [Id]           INT          IDENTITY (1, 1) NOT NULL,
+    [Manufacturer] VARCHAR (50) NOT NULL,
+    [Model]        VARCHAR (50) NOT NULL,
+    [Color]        VARCHAR (50) NULL,
+    [Year]         INT          NULL,
+    [Category]     VARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
@@ -223,17 +225,15 @@ CREATE TABLE [dbo].[Address] (
 
 
 GO
-PRINT N'Creating [dbo].[Cars]...';
+PRINT N'Creating [dbo].[Permission]...';
 
 
 GO
-CREATE TABLE [dbo].[Cars] (
-    [Id]           INT          IDENTITY (1, 1) NOT NULL,
-    [Manufacturer] VARCHAR (50) NOT NULL,
-    [Model]        VARCHAR (50) NOT NULL,
-    [Color]        VARCHAR (50) NULL,
-    [Year]         INT          NULL,
-    [Category]     VARCHAR (50) NULL,
+CREATE TABLE [dbo].[Permission] (
+    [Id]       INT          IDENTITY (1, 1) NOT NULL,
+    [Function] VARCHAR (50) NOT NULL,
+    [Rights]   VARCHAR (10) NOT NULL,
+    [UserId]   INT          NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
